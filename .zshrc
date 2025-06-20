@@ -175,4 +175,4 @@ alias awsp="source _awsp"
 
 ## Hello
 alias hello='echo "Hello, World!"'
-alias deploy='sh $HOME/Dev/my-zshrc/deploy.sh'
+alias dep='sh $HOME/Dev/my-zshrc/deploy.sh'
