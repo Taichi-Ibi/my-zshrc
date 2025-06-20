@@ -181,4 +181,4 @@ alias awsp="source _awsp"
 alias dep='sh $HOME/Dev/my-zshrc/deploy.sh'
 
 ## organize 
-alias organize='cd $HOME/Downloads; organize run organize.yaml'
+alias org='cd $HOME/Downloads; organize run organize.yaml'
