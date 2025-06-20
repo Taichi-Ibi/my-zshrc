@@ -175,5 +175,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias awsp="source _awsp"
 
 ## Hello
-alias hello='echo "Hello, World!!!"'
+alias hello='echo "Hello, World!!"'
 alias dep='sh $HOME/Dev/my-zshrc/deploy.sh'

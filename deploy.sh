@@ -3,4 +3,4 @@ sleep 1
 cd $HOME/Dev/my-zshrc
 git add -A
 opencommit -y
-zsh -c 'source ~/.zshrc'
+exec zsh
