@@ -70,13 +70,13 @@ alias myip='ifconfig | grep "inet " | head -n 2 | tail -n 1 | cut -d" " -f2'
 chpwd() {
     if [[ $(pwd) != $HOME ]]; then ls; fi
 }
-alias cz='cat ~/.zshrc'
-alias lz='less ~/.zshrc'
-alias l='less'
-alias oz='open ~/.zshrc'
-alias oe='open ~/.env'
+alias cz='cat $HOME/Dev/my-zshrc/.zshrc'
+alias lz='less $HOME/Dev/my-zshrc/.zshrc'
 alias sz='source ~/.zshrc'
-alias vz='nvim  ~/.zshrc'
+alias l='less'
+alias oz='open $HOME/Dev/my-zshrc/.zshrc'
+alias oe='open ~/.env'
+alias vz='nvim  $HOME/Dev/my-zshrc/.zshrc'
 alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
 alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
 
@@ -131,7 +131,7 @@ alias gg='git grep'
 alias gsl='git stash list'
 alias gst='git stash'
 alias gsp='git stash pop'
-alias opc='opencommit -m gpt-4.1'
+alias oc='opencommit'
 ### Status
 alias gd='git diff'
 alias gga="git log -20 --graph --date-order --all --pretty=format:'%h %C(green)%ad% C(cyan reverse)%cn%C(reset) %C(white bold)%s %C(red reverse)%w(80)%d' --date=short"
