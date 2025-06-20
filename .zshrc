@@ -177,5 +177,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 ## AWD
 alias awsp="source _awsp"
 
-# Deploy Script
+## Deploy Script
 alias dep='sh $HOME/Dev/my-zshrc/deploy.sh'
+
+## organize 
+alias organize='cd $HOME/Downloads; organize run organize.yaml'
