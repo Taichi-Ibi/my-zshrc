@@ -47,6 +47,9 @@ export PATH="/usr/local/bin:$PATH"
 function runs_on_ARM64() { [[ `uname -m` = "arm64" ]]; }
 function runs_on_X86_64() { [[ `uname -m` = "x86_64" ]]; }
 
+## VSCode
+alias cdd="code ."
+
 ## Brew
 BREW_PATH_OPT="/opt/homebrew/bin"
 BREW_PATH_LOCAL="/usr/local/bin"
