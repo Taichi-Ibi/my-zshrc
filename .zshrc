@@ -179,7 +179,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias awsp="source _awsp"
 
 ## Deploy Script
-alias dep='sh $HOME/Dev/my-zshrc/deploy.sh'
+dep() (
+  cd $HOME/Dev/my-zshrc || return
+  sh $HOME/Dev/my-zshrc/deploy.sh
+)
 
 ## organize 
 org() (
