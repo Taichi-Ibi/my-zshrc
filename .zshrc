@@ -128,6 +128,7 @@ alias gpl='git pull'
 alias ga='git add'
 alias gaa='git add -A && git status --short'
 alias gcm='git commit -m '
+alias gop='git-open'
 alias gp='git push'
 ### Search
 alias gg='git grep'
@@ -181,4 +182,7 @@ alias awsp="source _awsp"
 alias dep='sh $HOME/Dev/my-zshrc/deploy.sh'
 
 ## organize 
-alias org='cd $HOME/Downloads; organize run organize.yaml'
+org() (
+  cd ~/Downloads || return        # サブシェル内で移動。外側のPWDは変わらない
+  organize run organize.yaml
+)
