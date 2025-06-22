@@ -158,6 +158,7 @@ alias slm='sh $HOME/dev/her/scripts/her.sh slm '
 
 ## Cloud
 [ -f ~/.zcloud ] && source ~/.zcloud
+alias tf='terraform'
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:$HOME/.lmstudio/bin"
