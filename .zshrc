@@ -73,7 +73,7 @@ alias myip='ifconfig | grep "inet " | head -n 2 | tail -n 1 | cut -d" " -f2'
 chpwd() {
     if [[ $(pwd) != $HOME ]]; then ls; fi
 }
-alias cz='cat $HOME/Dev/my-zshrc/.zshrc'
+alias cz='bat $HOME/Dev/my-zshrc/.zshrc'
 alias lz='less $HOME/Dev/my-zshrc/.zshrc'
 alias sz='source ~/.zshrc'
 alias l='less'
@@ -89,7 +89,7 @@ alias th='touch'
 alias ls='ls -G' # ls系
 alias la='ls -a'
 alias ll='ls -lh'
-alias c='cat'
+alias c='bat'
 alias cl='clear' # よく使うコマンド(ゆくゆくはAtoZまで埋めたい！)
 alias pbc='pbcopy'
 alias pbp='pbpaste'
