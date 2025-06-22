@@ -183,6 +183,7 @@ alias awsp="source _awsp"
 dep() (
   cd $HOME/Dev/my-zshrc || return
   sh deploy.sh
+  exec zsh
 )
 
 ## organize 
