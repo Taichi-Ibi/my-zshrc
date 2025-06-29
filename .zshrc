@@ -63,8 +63,7 @@ fi
 
 # Alias #
 ## vim
-alias v='nvim'
-alias vi='nvim'
+alias nv='nvim'
 
 ## Network
 alias myip='ifconfig | grep "inet " | head -n 2 | tail -n 1 | cut -d" " -f2'
