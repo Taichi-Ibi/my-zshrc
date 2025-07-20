@@ -142,6 +142,7 @@ alias gga="git log -20 --graph --date-order --all --pretty=format:'%h %C(green)%
 alias gl='git log'
 ### Other
 alias grh='git reset --hard'
+alias gpn='gh pr new'
 gcb() {
     git checkout -b "$1" && git push -u origin "$1"
 }
