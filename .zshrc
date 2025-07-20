@@ -85,9 +85,9 @@ alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
 ## Commands
 alias md='mkdir -p'
 alias th='touch'
-alias ls='ls -G' # ls系
-alias la='ls -a'
-alias ll='ls -lh'
+alias ls='eza -G' # ls系
+alias la='eza -a'
+alias ll='eza -lh'
 alias c='bat'
 alias cl='clear' # よく使うコマンド(ゆくゆくはAtoZまで埋めたい！)
 alias pbc='pbcopy'
