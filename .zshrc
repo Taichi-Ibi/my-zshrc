@@ -178,13 +178,12 @@ alias awsp="source _awsp"
 
 ## Deploy Script
 dep() (
-  cd $HOME/Dev/my-zshrc && sh deploy.sh
+  cd $HOME/Dev/my-zshrc && ./deploy.sh
 )
 
 ## organize 
 org() (
-  cd ~/Downloads || return        # サブシェル内で移動。外側のPWDは変わらない
-  organize run organize.yaml
+  cd ~/Downloads && organize run organize.yaml
 )
 
 ## estyle
