@@ -69,9 +69,6 @@ alias nv='nvim'
 alias myip='ifconfig | grep "inet " | head -n 2 | tail -n 1 | cut -d" " -f2'
 
 ## zsh(zshいじる趣味が無いなら要らない)
-chpwd() {
-    if [[ $(pwd) != $HOME ]]; then ls; fi
-}
 alias cz='bat $HOME/Dev/my-zshrc/.zshrc'
 alias lz='less $HOME/Dev/my-zshrc/.zshrc'
 alias sz='source ~/.zshrc'
@@ -181,9 +178,7 @@ alias awsp="source _awsp"
 
 ## Deploy Script
 dep() (
-  cd $HOME/Dev/my-zshrc || return
-  sh deploy.sh
-  exec zsh
+  cd $HOME/Dev/my-zshrc && sh deploy.sh
 )
 
 ## organize 
@@ -191,3 +186,6 @@ org() (
   cd ~/Downloads || return        # サブシェル内で移動。外側のPWDは変わらない
   organize run organize.yaml
 )
+
+## estyle
+cd $HOME/dev/estyledb && ./estyledb employees
