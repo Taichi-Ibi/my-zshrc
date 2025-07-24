@@ -188,4 +188,4 @@ org() (
 )
 
 ## estyle
-cd $HOME/dev/estyledb && ./estyledb employees
+alias estyledb='cd $HOME/dev/estyledb && ./estyledb employees'
