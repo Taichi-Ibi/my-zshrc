@@ -188,3 +188,13 @@ org() (
 
 ## estyle
 alias estyledb='cd $HOME/dev/estyledb && ./estyledb employees'
+
+fm() {
+    local dst
+    dst=$(mktemp)
+    vifm --choose-dir="$dst" "$@"
+    if [ -f "$dst" ]; then
+        cd "$(cat "$dst")"
+        rm -f "$dst"
+    fi
+}
