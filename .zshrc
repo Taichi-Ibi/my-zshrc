@@ -12,7 +12,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 if (( $+commands[arch] )); then
   alias a64="exec arch -arch arm64e '$SHELL'"
   alias x64="exec arch -arch x86_64 '$SHELL'"
-fi
+f
 
 # History
 HISTSIZE=1000
@@ -30,7 +30,7 @@ setopt share_history # 同時に起動しているzshの間でhistoryを共有�
 setopt PROMPT_SUBST # Gitブランチの表示
 
 # Prompt
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # External Tools #
 ## Plugins
