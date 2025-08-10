@@ -114,6 +114,7 @@ alias dsp='echo y | docker system prune'
 ## Git
 ### Basic
 alias gcl='git clone'
+alias gpn='prn'
 alias gto='git open'
 ### Branch
 alias gb='git branch'
