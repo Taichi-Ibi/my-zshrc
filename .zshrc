@@ -12,7 +12,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 if (( $+commands[arch] )); then
   alias a64="exec arch -arch arm64e '$SHELL'"
   alias x64="exec arch -arch x86_64 '$SHELL'"
-f
+fi
 
 # History
 HISTSIZE=1000
@@ -199,5 +199,6 @@ fm() {
         rm -f "$dst"
     fi
 }
+
 alias mute='./.build/release/mute-input'
 alias unmute='./.build/release/mute-input unmute'
