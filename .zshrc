@@ -199,3 +199,5 @@ fm() {
         rm -f "$dst"
     fi
 }
+alias mute='./.build/release/mute-input'
+alias unmute='./.build/release/mute-input unmute'
