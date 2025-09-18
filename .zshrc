@@ -30,7 +30,7 @@ setopt share_history # 同時に起動しているzshの間でhistoryを共有�
 setopt PROMPT_SUBST # Gitブランチの表示
 
 # Prompt
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # External Tools #
 ## Plugins
