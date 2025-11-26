@@ -114,7 +114,6 @@ alias dsp='echo y | docker system prune'
 ## Git
 ### Basic
 alias gcl='git clone'
-alias prn='gh pr new'
 alias gto='git open'
 alias pr="gh pr create --title \"auto\" --body \"\" --web"
 ### Branch
@@ -122,6 +121,7 @@ alias gb='git branch'
 alias gco='git checkout'
 alias gmg='git merge'
 alias gpl='git pull'
+alias gbr='git branch -r'
 ### Commit
 alias ga='git add'
 alias gaa='git add -A && git status --short'
