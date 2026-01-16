@@ -49,6 +49,7 @@ function runs_on_X86_64() { [[ `uname -m` = "x86_64" ]]; }
 
 ## VSCode
 alias cdd="code ."
+alias cud="cursor ."
 
 ## Brew
 BREW_PATH_OPT="/opt/homebrew/bin"
@@ -134,7 +135,7 @@ alias gg='git grep'
 alias gsl='git stash list'
 alias gst='git stash'
 alias gsp='git stash pop'
-alias oc='opencommit'
+alias aic='aicommit2'
 ### Status
 alias gd='git diff'
 alias gga="git log -20 --graph --date-order --all --pretty=format:'%h %C(green)%ad% C(cyan reverse)%cn%C(reset) %C(white bold)%s %C(red reverse)%w(80)%d' --date=short"
@@ -201,5 +202,6 @@ fm() {
     fi
 }
 
-alias mute='./.build/release/mute-input'
-alias unmute='./.build/release/mute-input unmute'
+alias br='open -a "Microsoft Edge"'
+
+ml() { local f="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/mirror_log/daily/$(date +%Y-%m-%d).md"; mkdir -p "${f:h}"; touch "$f"; perl -0777 -i -pe 's/\n$//' "$f"; { [ -s "$f" ] && printf "\n- %s" "$*" || printf "- %s" "$*"; } >> "$f"; }

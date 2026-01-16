@@ -1,3 +1,3 @@
 git add -A
-opencommit -y
+git commit -m "update"
 cat $HOME/Dev/my-zshrc/.zshrc > ~/.zshrc
