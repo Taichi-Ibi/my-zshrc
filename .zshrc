@@ -135,7 +135,7 @@ alias gg='git grep'
 alias gsl='git stash list'
 alias gst='git stash'
 alias gsp='git stash pop'
-alias aic='aicommit2 --locale jp --generate 3 -y'
+alias aic='aicommit2 --locale jp --generate 2 -y'
 ### Status
 alias gd='git diff'
 alias gga="git log -20 --graph --date-order --all --pretty=format:'%h %C(green)%ad% C(cyan reverse)%cn%C(reset) %C(white bold)%s %C(red reverse)%w(80)%d' --date=short"
