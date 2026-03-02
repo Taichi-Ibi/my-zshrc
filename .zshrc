@@ -86,7 +86,6 @@ alias th='touch'
 alias ls='eza -G' # ls系
 alias la='eza -a'
 alias ll='eza -lh'
-alias c='bat'
 alias cl='clear' # よく使うコマンド(ゆくゆくはAtoZまで埋めたい！)
 alias pbc='pbcopy'
 alias pbp='pbpaste'
