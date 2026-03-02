@@ -103,7 +103,7 @@ alias h='history 0 | tail -r | fzf --reverse --height 50% --no-sort \
 alias da='deactivate'
 alias pip='pip3'
 alias pir='pip install -r requirements.txt'
-alias pvv='/opt/homebrew/bin/python3.11 -m venv .venv'
+alias pvv='/opt/homebrew/bin/python3.13 -m venv .venv'
 alias py='python3'
 alias python='python3'
 alias sva='. .venv/bin/activate'
@@ -205,3 +205,6 @@ fm() {
 alias br='open -a "Microsoft Edge"'
 
 ml() { local f="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/mirror_log/daily/$(date +%Y-%m-%d).md"; mkdir -p "${f:h}"; touch "$f"; perl -0777 -i -pe 's/\n$//' "$f"; { [ -s "$f" ] && printf "\n- %s" "$*" || printf "- %s" "$*"; } >> "$f"; }
+
+alias c="claude"
+alias ex="exit"
