@@ -19,7 +19,6 @@ HISTSIZE=1000
 SAVEHIST=1000
 
 # Options
-setopt auto_pushd # cd - で以前いたディレクトリに移動
 setopt correct # コマンドのスペルミスを指摘
 setopt extended_glob # 高機能なワイルドカード展開を使用する
 setopt hist_ignore_all_dups # 同じコマンドをhistoryに残さない
