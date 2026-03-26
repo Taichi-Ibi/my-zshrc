@@ -80,8 +80,8 @@ alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
 alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
 
 ## Commands
-alias md='mkdir -p'
-alias th='touch'
+alias m='mkdir -p'
+alias t='touch'
 alias ls='eza -G' # ls系
 alias la='eza -a'
 alias ll='eza -lh'
