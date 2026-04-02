@@ -1,4 +1,3 @@
-. "$HOME/.local/bin/env"
 eval "$(anyenv init - zsh)"
 eval "$(direnv hook zsh)"
 export PATH="/usr/local/opt/python@3.11/bin:/usr/sbin:/sbin:$PATH"
