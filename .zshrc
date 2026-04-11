@@ -204,3 +204,4 @@ alias br='open -a "Microsoft Edge"'
 ml() { local f="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/mirror_log/daily/$(date +%Y-%m-%d).md"; mkdir -p "${f:h}"; touch "$f"; perl -0777 -i -pe 's/\n$//' "$f"; { [ -s "$f" ] && printf "\n- %s" "$*" || printf "- %s" "$*"; } >> "$f"; }
 
 alias c="claude"
+alias yz="yazi"
