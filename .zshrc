@@ -205,4 +205,6 @@ ml() { local f="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/mirr
 
 alias c="claude"
 alias yz="yazi"
-alias lz="lazygit"
+alias lg="lazygit"
+export EDITOR="nvim"
+alias mdv="mdv --watch --theme dark"
