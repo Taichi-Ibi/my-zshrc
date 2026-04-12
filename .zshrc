@@ -115,6 +115,9 @@ alias cc='claude'
 alias pbc='pbcopy'
 alias pbp='pbpaste'
 alias yz='yazi'
+alias ls='eza -G'
+alias la='eza -a'
+alias ll='eza -lh'
 
 # zshrc 管理
 alias oz='open $HOME/dev/my-zshrc/.zshrc'
