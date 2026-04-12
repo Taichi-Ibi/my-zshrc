@@ -1,6 +1,7 @@
 eval "$(anyenv init - zsh)"
 eval "$(direnv hook zsh)"
 export PATH="/usr/local/opt/python@3.11/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/Users/estyle-159/.local/bin:$PATH"
 
 # Brew
 export HOMEBREW_PREFIX="/opt/homebrew"
@@ -41,7 +42,6 @@ autoload -U +X bashcompinit && bashcompinit
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-export PATH="/usr/local/bin:$PATH"
 function runs_on_ARM64() { [[ `uname -m` = "arm64" ]]; }
 function runs_on_X86_64() { [[ `uname -m` = "x86_64" ]]; }
 
