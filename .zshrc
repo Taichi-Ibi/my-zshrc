@@ -19,8 +19,8 @@
 # ----------------------------------------------------------
 # 1. System
 # ----------------------------------------------------------
-runs_on_ARM64()  { [[ $(uname -m) = "arm64"  ]] }
-runs_on_X86_64() { [[ $(uname -m) = "x86_64" ]] }
+runs_on_ARM64()  { [[ $(uname -m) = "arm64"  ]]; }
+runs_on_X86_64() { [[ $(uname -m) = "x86_64" ]]; }
 
 export HOMEBREW_PREFIX="/opt/homebrew"
 export HOMEBREW_CELLAR="/opt/homebrew/Cellar"
