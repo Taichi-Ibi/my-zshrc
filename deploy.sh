@@ -1,3 +1,4 @@
 aicommit2 --locale jp -y --all
-cat $HOME/Dev/my-zshrc/.zshrc > ~/.zshrc
+cp $HOME/dev/my-zshrc/.zshrc ~/.zshrc
 git push
+source ~/.zshrc
