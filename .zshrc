@@ -133,3 +133,11 @@ alias myip='ifconfig | grep "inet " | head -n 2 | tail -n 1 | cut -d" " -f2'
 dep() (
   cd "$HOME/dev/my-zshrc" && ./deploy.sh
 )
+
+# ----------------------------------------------------------
+# 12. Git
+# ----------------------------------------------------------
+alias gaa='git add -A'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gpl='git pull'
