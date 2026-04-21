@@ -110,7 +110,8 @@ export NVM_DIR="$HOME/.nvm"
 # 11. Aliases
 # ----------------------------------------------------------
 # よく使うコマンド
-alias c='clear'
+alias cl='cl'
+alias rm='rm -i'
 alias cc='claude'
 alias pbc='pbcopy'
 alias pbp='pbpaste'
