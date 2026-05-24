@@ -112,7 +112,7 @@ export NVM_DIR="$HOME/.nvm"
 # よく使うコマンド
 alias cl='cl'
 alias rm='rm -i'
-alias cc='claude'
+alias cc='claude --model opusplan'
 alias pbc='pbcopy'
 alias pbp='pbpaste'
 alias yz='yazi'
