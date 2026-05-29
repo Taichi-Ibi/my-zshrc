@@ -50,7 +50,6 @@ SAVEHIST=1000
 # ----------------------------------------------------------
 # 5. Options
 # ----------------------------------------------------------
-setopt correct              # コマンドのスペルミスを指摘
 setopt extended_glob        # 高機能なワイルドカード展開
 setopt hist_ignore_all_dups # 重複コマンドを履歴に残さない
 setopt hist_reduce_blanks   # 履歴保存時に余分な空白を削除
