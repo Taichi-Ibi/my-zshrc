@@ -14,6 +14,7 @@
 #   10. Secrets       – .env の読み込み
 #   11. Aliases       – エイリアス
 #   12. Functions     – シェル関数・スクリプト
+#   13. Git           – Git操作効率化
 # ============================================================
 
 # ----------------------------------------------------------
@@ -135,10 +136,16 @@ dep() (
   cd "$HOME/dev/my-zshrc" && ./deploy.sh
 )
 
+function set_terminal_title() {
+  print -Pn '\e]0;%1~\a'
+}
+precmd_functions+=(set_terminal_title)
+
 # ----------------------------------------------------------
-# 12. Git
+# 13. Git
 # ----------------------------------------------------------
 alias gaa='git add -A'
+alias gcl='git clone'
 alias gcm='git commit -m'
 alias gp='git push'
 alias gpl='git pull'
