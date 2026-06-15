@@ -120,6 +120,7 @@ alias lg='lazygit'
 alias ls='eza -G'
 alias la='eza -a'
 alias ll='eza -lh'
+alias rm='trash'
 
 # zshrc 管理
 alias oz='open $HOME/dev/my-zshrc/.zshrc'
